@@ -1,0 +1,12 @@
+import type { TypedUseSelectorHook } from 'react-redux';
+import { LayoutDefinition } from '../types';
+import { AppDispatch, RootState } from './createStore';
+import { ContextPanelStore } from './slices/contextPanel.slice';
+import { SettingsStore } from './slices/settings.slice';
+export declare const useAppDispatch: () => AppDispatch;
+export declare const useAppSelector: TypedUseSelectorHook<RootState>;
+export declare function useLayoutSelector<T extends LayoutDefinition>(name: string): T;
+export declare function useSettingsSelector(): SettingsStore;
+export declare function useDialogSelector(): import("..").DialogProps;
+export declare function useContextPanelSelector(): ContextPanelStore;
+export declare function useMessageSelector(): import("..").SnackbarProps;
