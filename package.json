@@ -1,0 +1,57 @@
+{
+  "name": "@icatalyst/react-ui-components",
+  "version": "0.5.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ICatalyst-Pte-Ltd/icatalyst-react-ui-components.git"
+  },
+  "sideEffects": [
+    "src/lib/fa-init.ts",
+    "src/lib/static-init.ts"
+  ],
+  "main": "./index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "module": "./index.js",
+  "type": "module",
+  "dependencies": {},
+  "peerDependencies": {
+    "@ckeditor/ckeditor5-custom": "0.2.1",
+    "@ckeditor/ckeditor5-react": "6.0.0",
+    "@emotion/cache": "11.10.5",
+    "@emotion/react": "11.10.6",
+    "@fortawesome/fontawesome-svg-core": "6.2.1",
+    "@fortawesome/free-brands-svg-icons": "6.2.1",
+    "@fortawesome/free-regular-svg-icons": "6.2.1",
+    "@fortawesome/free-solid-svg-icons": "6.2.1",
+    "@fortawesome/react-fontawesome": "0.2.0",
+    "@icatalyst/js-core": "0.4.0",
+    "@mui/material": "5.11.1",
+    "@mui/styles": "5.11.1",
+    "@mui/types": "7.2.3",
+    "@mui/x-date-pickers": "6.2.0",
+    "@reacticons/ionicons": "6.0.4",
+    "@reduxjs/toolkit": "1.9.0",
+    "axios": "1.2.1",
+    "iframe-resizer-react": "1.1.0",
+    "joi": "17.7.0",
+    "lodash": "4.17.21",
+    "material-ui-popup-state": "4.1.0",
+    "moment": "2.29.4",
+    "mui-color": "2.0.0-beta.2",
+    "pluralize": "8.0.0",
+    "react": "18.2.0",
+    "react-redux": "8.0.5",
+    "react-router-dom": "6.4.3",
+    "react-table": "7.8.0",
+    "rxjs": "7.8.0",
+    "socket.io-client": "4.5.4",
+    "tabler-icons-react": "1.56.0",
+    "tss-react": "3.7.1"
+  }
+}
