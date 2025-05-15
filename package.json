@@ -1,0 +1,20 @@
+{
+  "name": "@icatalyst/react-ui-components",
+  "version": "0.7.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ICatalyst-Pte-Ltd/icatalyst-react-ui-components.git"
+  },
+  "sideEffects": [
+    "src/lib/fa-init.ts",
+    "src/lib/static-init.ts"
+  ],
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  }
+}
